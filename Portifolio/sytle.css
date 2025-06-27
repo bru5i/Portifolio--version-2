@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+:root {
+    --cor-principal: #0c0046;
+    --cor-secuncaria: #000000;
+    --cor-destaque: #004ea6;
+}
+
+body {
+    font-family: 'Anton SC', sans-serif;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secuncaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque)
+}
